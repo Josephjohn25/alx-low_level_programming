@@ -7,7 +7,7 @@
  *
  * Return: The result of (base raised to the power), or 0 if an error occurs.
  */
-unsigned long int _pow(unsigned int base, unsigned int power)
+unsigned long int _pow(unsigned int base, unsigned int power);
 {
 unsigned long int num;
 unsigned int a;
@@ -24,7 +24,7 @@ return (num);
  *
  * Return: void
  */
-void print_binary(unsigned long int n)
+void print_binary(unsigned long int n);
 {
 unsigned long int divisor, check;
 char flag;
